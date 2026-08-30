@@ -5,8 +5,8 @@ class Solution {
         int suffix = 1;
         int ans = nums[0];
 
-        for (int i = 0; i < nums.length; i++) {
-
+        for (int i = 0; i < nums.length; i++) 
+        {
             if (prefix == 0)
                 prefix = 1;
 
